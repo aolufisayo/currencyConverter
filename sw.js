@@ -6,7 +6,7 @@ var urlsToCache = [
     './',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
     './css/materialize.min.css',
-    '/css/main.css',
+    './css/main.css',
     './js/jquery-3.2.1.min.js',
     './js/materialize.min.js',
     './js/app.js',
