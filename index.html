@@ -31,7 +31,7 @@
     <title>Money Converter</title>
 </head>
 
-<body>
+<body onload="initializer();">
   <header class="navbar-fixed">
     <nav class="teal darken-3">
       <div class="nav-wrapper">
@@ -69,7 +69,7 @@
                   </div>
                    
 
-                    <button type="submit" id="convert" class="btn btn-large teal btn-extend" >Convert</button>
+                    <button type="submit" id="convert" class="btn btn-large teal btn-extend" onclick="converter();">Convert</button>
                     <p>Result</p>
                     <div class="input-field">
                         <input type="text"  id="result" value="-------"  disabled>
