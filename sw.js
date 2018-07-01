@@ -3,16 +3,16 @@
 var CACHE_NAME = 'cache-v53';
 
 var urlsToCache = [
-    './',
+    '/currencyConverter/',
     'https://fonts.googleapis.com/icon?family=Material+Icons',
-    './css/materialize.min.css',
-    './css/main.css',
-    './js/jquery-3.2.1.min.js',
-    './js/materialize.min.js',
-    './js/app.js',
-    './js/promise.js',
-    './js/fetch.js',
-    './manifest.json'
+    '/currencyConverter/css/materialize.min.css',
+    '/currencyConverter/css/main.css',
+    '/currencyConverter/js/jquery-3.2.1.min.js',
+    '/currencyConverter/js/materialize.min.js',
+    '/currencyConverter/js/app.js',
+    '/currencyConverter/js/promise.js',
+    '/currencyConverter/js/fetch.js',
+    '/currencyConverter/manifest.json'
 ]
 
 //setup install event
